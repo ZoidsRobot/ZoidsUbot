@@ -82,7 +82,7 @@ if sys.argv[0] == "-m":
             except Exception as er:
                 LOGS.exception(er)
     elif not asst.me.bot_inline_placeholder:
-        ultroid_bot.run_in_loop(enable_inline(ultroid_bot, asst.me.username))
+        ultroid_bot.run_in_loop(enable_inline(ZoidUbot_bot, asst.me.username))
 
     vcClient = vc_connection(udB, ultroid_bot)
 
@@ -92,7 +92,7 @@ if sys.argv[0] == "-m":
     DUAL_HNDLR = udB.get_key("DUAL_HNDLR") or "/"
     SUDO_HNDLR = udB.get_key("SUDO_HNDLR") or HNDLR
 else:
-    print("pyUltroid 2022 © TeamUltroid")
+    print("ZoidUbot 2022 © Nandesupport")
 
     from logging import getLogger
 
