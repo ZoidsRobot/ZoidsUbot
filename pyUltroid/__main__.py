@@ -62,7 +62,7 @@ def main():
 
     suc_msg = """
             ----------------------------------------------------------------------
-                Ultroid has been deployed! Visit @TheUltroid for updates!!
+                ZoidUbot has been deployed! Visit @Nandesupport for updates!!
             ----------------------------------------------------------------------
     """
 
