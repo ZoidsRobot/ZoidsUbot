@@ -811,7 +811,7 @@ async def in_pm_ans(event):
                 await event.builder.document(
                     res,
                     title="Inline PmPermit",
-                    description="~ @TeamUltroid",
+                    description="~ @Nandesupport",
                     text=msg_,
                     buttons=buttons,
                     link_preview=False,
@@ -828,14 +828,14 @@ async def in_pm_ans(event):
                 title="Inline PMPermit.",
                 type=_type,
                 text=msg_,
-                description="@TeamUltroid",
+                description="@Nandesupport",
                 include_media=include_media,
                 buttons=buttons,
                 thumb=cont,
                 content=cont,
             )
         ]
-    await event.answer(res, switch_pm="• Ultroid •", switch_pm_param="start")
+    await event.answer(res, switch_pm="• ZoidUbot•", switch_pm_param="start")
 
 
 @callback(re.compile("admin_only(.*)"), from_users=[ultroid_bot.uid])
